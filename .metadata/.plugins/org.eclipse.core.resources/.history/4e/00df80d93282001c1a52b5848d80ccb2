@@ -1,0 +1,25 @@
+package steps;
+
+public class CheckBoxStep {
+
+	@Quando("escolher a opção Check Box")
+	public void escolherAOpçãoCheckBox() {
+
+	}
+
+	@E("expandir a árvore do diretório")
+	public void expandirAÁrvoreDoDiretório() {
+
+	}
+
+	@E("selecionar check box do arquivo {string}")
+	public void selecionarCheckBoxDoArquivo(String string) {
+
+	}
+
+	@Então("a mensagem {string} é apresentada")
+	public void aMensagemÉApresentada(String string) {
+
+	}
+
+}

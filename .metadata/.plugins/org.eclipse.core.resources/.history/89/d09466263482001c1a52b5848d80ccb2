@@ -1,0 +1,18 @@
+package pages;
+
+import static com.codeborne.selenide.Selenide.$;
+
+import org.openqa.selenium.By;
+
+import com.codeborne.selenide.SelenideElement;
+
+public class CheckBoxPage {
+	
+	SelenideElement checkboxOption = $(By.xpath("//*[@id=\"item-1\"]/span"));
+	SelenideElement btnExpand = $(By.xpath("//button[@class='rct-option rct-option-expand-all']"));
+	
+	public void clickCheckboxOption() throws InterruptedException {
+		checkboxOption.click();
+	}
+
+}

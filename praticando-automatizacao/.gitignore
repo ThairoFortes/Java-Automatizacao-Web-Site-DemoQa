@@ -1,0 +1,7 @@
+/target/
+.eclipse/
+.idea/
+/allure-results/
+/build/
+.settings/
+debug.log

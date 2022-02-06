@@ -1,0 +1,9 @@
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'STFBSBC045505-L', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fdd09237fd2595773522c7b6ea9ce10, getPageSource {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\STEFAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59175/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fdd09237fd2595773522c7b6ea9ce10

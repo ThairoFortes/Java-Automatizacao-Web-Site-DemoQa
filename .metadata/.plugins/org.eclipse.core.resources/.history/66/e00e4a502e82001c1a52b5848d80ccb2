@@ -1,0 +1,11 @@
+package steps;
+
+import pages.TextBoxPage;
+
+public class TextBoxStep {
+
+	TextBoxPage tb = new TextBoxPage();
+
+	
+
+}

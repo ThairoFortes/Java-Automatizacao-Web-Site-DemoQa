@@ -1,0 +1,10 @@
+package steps;
+
+import pages.CheckBoxPage;
+
+public class RadioButtonStep {
+	
+	CheckBoxPage cb = new CheckBoxPage();
+
+
+}

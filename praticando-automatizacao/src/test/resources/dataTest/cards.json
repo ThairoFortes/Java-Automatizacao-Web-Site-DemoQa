@@ -1,0 +1,64 @@
+	
+{
+    "ce015": [
+        {
+	    "menu": "Tarjetas",
+	    "typeCard": "virtual",
+	    "date": "12/29",
+	    "value": "1,13",
+	    "validateList": ["item1","item2"]
+        }
+
+    ],
+    "ce016": [
+        {
+
+	    "validateList": ["¿Dónde encuentro la fecha de vencimiento de mi tarjeta?","La fecha vencimiento está en la parte posterior de tu tarjeta, como muestra la imagen anterior"]
+        }
+
+    ],
+    "ce019": [
+        {
+
+	    "validateList": ["Compra","South Emporium Argentina ARG","261,61","Midhwest Emporium Argentina ARG","99,99"]
+        }
+
+    ],
+    "ce021": [
+        {
+
+	    "validateList": ["Compra","MERCADOPAGO *Spotify Buenos Aires ARG","244,99","MERCADOPAGO *iFood Buenos Aires ARG","77,97"]
+        }
+
+    ],
+    "ce028": [
+        {
+
+	    "labels": ["Cargar dinero","Buscar movimientos"]
+        }
+
+    ],
+    "ce005": [
+        {
+
+	    "labels": ["Compra","South Emporium Argentina ARG","261,61","Midhwest Emporium Argentina ARG","99,99","Northwest Emporium Argentina ARG","155,13"]
+        }
+
+    ],
+    "ce006": [
+        {
+
+	    "labels": ["Compra","MERCADOPAGO *Spotify Buenos Aires ARG","- $ 244,99","MERCADOPAGO *iFood Buenos Aires ARG","- $ 77,97","MERCADOPAGO *Uber Buenos Aires ARG","- $ 119,91"]
+        }
+
+    ],
+    "genericData": [
+        {
+	    "message": ["Validar la operación en tu celular"]
+        },
+        {
+	    "messageTimeout": ["El tiempo para realizar la operación ha terminado. Puedes volver a realizar la validación","La solicitación no fue realiza"]
+        }
+
+    ]
+}

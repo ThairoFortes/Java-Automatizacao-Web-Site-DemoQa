@@ -1,0 +1,36 @@
+package pages;
+
+import static com.codeborne.selenide.Selenide.$;
+import static org.junit.Assert.assertEquals;
+
+import org.openqa.selenium.By;
+
+import com.codeborne.selenide.SelenideElement;
+
+public class RadioButtonPage {
+	
+	SelenideElement radiobuttonOption = $(By.xpath("//*[@id=\"item-2\"]/span"));
+	SelenideElement yesOption = $(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div[2]/div[1]/div[2]/label"));
+	SelenideElement mesage1 = $(By.xpath("//p[@class='mt-3'][text()='You have selected ']"));
+	SelenideElement mesage2 = $(By.xpath("//*[@id='result']/span[2]"));
+	
+	//p[@class='mt-3'][text()='You have selected ']
+
+	public void clickRadiobuttonOption() throws InterruptedException {
+		radiobuttonOption.click();
+	}
+	
+	public void clickYesOption() throws InterruptedException {
+		yesOption.click();
+	}
+	
+	public void validateYesOption(String mensagem1, String mensagem2) throws InterruptedException {
+		String mesage1 = .getText();
+		assertEquals(mesage1, mensagem1);
+
+		String mesage2 = .getText();
+		assertEquals(mesage2, mensagem2);
+	}
+
+
+}

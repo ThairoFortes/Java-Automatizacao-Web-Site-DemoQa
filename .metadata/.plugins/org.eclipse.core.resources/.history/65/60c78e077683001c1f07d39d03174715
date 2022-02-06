@@ -1,0 +1,40 @@
+package steps;
+
+import pages.ButtonsPage;
+
+public class ButtonsStep {
+	io.cucumber.junit.UndefinedStepException:The step'escolher a opção Buttons' and 6
+
+	ButtonsPage b = new ButtonsPage();
+
+	@Quando("escolher a opção Buttons")
+	public void escolherAOpçãoButtons() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("clicar no botão Double Click Me")
+	public void clicarNoBotãoDoubleClickMe() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("a mesangem {string} é apresentada")
+	public void aMesangemÉApresentada(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("clicar no botão Double Click Me")
+	public void clicarNoBotãoDoubleClickMe() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("clicar no botão Click Me")
+	public void clicarNoBotãoClickMe() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+}

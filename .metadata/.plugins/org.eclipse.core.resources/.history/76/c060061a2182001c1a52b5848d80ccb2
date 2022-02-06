@@ -1,0 +1,48 @@
+package steps;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.E;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+import pages.TextBoxPage;
+
+public class TextBoxStep {
+
+	TextBoxPage tb = new TextBoxPage();
+
+	@Dado("que o usuário clique na opção Elements")
+	public void queOUsuárioCliqueNaOpçãoElements() throws InterruptedException {
+		tb.clickElementsOption();
+	}
+
+	@Quando("escolher a opção Text Box")
+	public void escolherAOpçãoTextBox() throws InterruptedException {
+		tb.clickTextBoxOption();
+	}
+
+	@E("preencher o nome completo {string}")
+	public void preencherONomeCompleto(String nome) throws InterruptedException {
+		tb.setName(nome);
+	}
+
+	@E("preencher o email {string}")
+	public void preencherOEMailEmail(String email) {
+
+	}
+
+	@E("preencher o endereço {string}")
+	public void preencherOOEndereçoEndereço() {
+
+	}
+
+	@E("clicar no botão para enviar o retório")
+	public void clicarNoBotãoParaEnviarORetório() {
+
+	}
+
+	@Então("é apresentado o que foi preenchido")
+	public void éApresentadoOQueFoiPreenchido() {
+
+	}
+
+}
